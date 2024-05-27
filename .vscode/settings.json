@@ -23,5 +23,7 @@
   },
   "python.analysis.autoImportCompletions": true,
   "python.analysis.typeCheckingMode": "off",
-  "python.defaultInterpreterPath": ".venv/bin/python"
+  "python.defaultInterpreterPath": ".venv/bin/python",
+  "notebook.formatOnCellExecution": true,
+  "notebook.formatOnSave.enabled": true
 }
