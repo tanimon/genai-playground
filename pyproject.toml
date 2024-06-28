@@ -16,6 +16,9 @@ langchain-aws = "^0.1.6"
 langchain-openai = "^0.1.7"
 boto3 = "^1.34.113"
 jawsume = "^0.1.0"
+azure-ai-generative = "^1.0.0b8"
+azure-identity = "^1.17.1"
+python-dotenv = "^1.0.1"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.3"
