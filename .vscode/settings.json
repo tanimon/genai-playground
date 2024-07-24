@@ -21,9 +21,15 @@
   "files.exclude": {
     ".venv/lib": true
   },
-  "python.analysis.autoImportCompletions": true,
-  "python.analysis.typeCheckingMode": "off",
-  "python.defaultInterpreterPath": ".venv/bin/python",
+  "notebook.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.sortImports": "explicit"
+  },
+  "notebook.defaultFormatter": "charliermarsh.ruff",
   "notebook.formatOnCellExecution": true,
-  "notebook.formatOnSave.enabled": true
+  "notebook.formatOnSave.enabled": true,
+  "notebook.output.wordWrap": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.typeCheckingMode": "standard",
+  "python.defaultInterpreterPath": ".venv/bin/python"
 }
